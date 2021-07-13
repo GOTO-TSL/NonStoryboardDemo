@@ -13,6 +13,7 @@
 		02B0C105269DD5FF00E7C80E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B0C104269DD5FF00E7C80E /* Assets.xcassets */; };
 		02B0C108269DD5FF00E7C80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B0C106269DD5FF00E7C80E /* LaunchScreen.storyboard */; };
 		02B0C111269DE3B700E7C80E /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B0C110269DE3B700E7C80E /* BottomView.swift */; };
+		02B0C113269DE6F500E7C80E /* BottomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B0C112269DE6F500E7C80E /* BottomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		02B0C107269DD5FF00E7C80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02B0C109269DD5FF00E7C80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02B0C110269DE3B700E7C80E /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		02B0C112269DE6F500E7C80E /* BottomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				02B0C110269DE3B700E7C80E /* BottomView.swift */,
+				02B0C112269DE6F500E7C80E /* BottomButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02B0C100269DD5FE00E7C80E /* HomeViewController.swift in Sources */,
+				02B0C113269DE6F500E7C80E /* BottomButtonView.swift in Sources */,
 				02B0C0FC269DD5FE00E7C80E /* AppDelegate.swift in Sources */,
 				02B0C0FE269DD5FE00E7C80E /* SceneDelegate.swift in Sources */,
 				02B0C111269DE3B700E7C80E /* BottomView.swift in Sources */,

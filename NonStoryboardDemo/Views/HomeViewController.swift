@@ -14,8 +14,7 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
         view.backgroundColor = .red
         
-        let view1 = UIView()
-        view1.backgroundColor = .blue
+        let view1 = TopView()
         
         let view2 = UIView()
         view2.backgroundColor = .green

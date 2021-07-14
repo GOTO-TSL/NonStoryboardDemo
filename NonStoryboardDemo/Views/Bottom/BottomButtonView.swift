@@ -20,6 +20,8 @@ class ButtomButtonView: UIView {
         
         addSubview(button)
         
+        button.addTarget(self, action: #selector(tapped(_ :)), for: .touchUpInside)
+        
         [
             button.centerXAnchor.constraint(equalTo: centerXAnchor),
             button.centerYAnchor.constraint(equalTo: centerYAnchor),
@@ -27,6 +29,10 @@ class ButtomButtonView: UIView {
             button.heightAnchor.constraint(equalToConstant: 50)
             
         ].forEach { $0.isActive = true }
+    }
+    
+    @objc func tapped(_ sender: UIButton) {
+        print("tapped!")
     }
     
     required init?(coder: NSCoder) {

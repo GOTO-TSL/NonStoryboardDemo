@@ -16,8 +16,7 @@ class HomeViewController: UIViewController {
         
         let view1 = TopView()
         
-        let view2 = UIView()
-        view2.backgroundColor = .green
+        let view2 = MiddleView()
         
         let view3 = BottomView()
         

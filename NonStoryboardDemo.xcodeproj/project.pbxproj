@@ -61,7 +61,6 @@
 				02B0C10F269DE37200E7C80E /* Views */,
 				02B0C0FB269DD5FE00E7C80E /* AppDelegate.swift */,
 				02B0C0FD269DD5FE00E7C80E /* SceneDelegate.swift */,
-				02B0C0FF269DD5FE00E7C80E /* HomeViewController.swift */,
 				02B0C104269DD5FF00E7C80E /* Assets.xcassets */,
 				02B0C106269DD5FF00E7C80E /* LaunchScreen.storyboard */,
 				02B0C109269DD5FF00E7C80E /* Info.plist */,
@@ -72,10 +71,27 @@
 		02B0C10F269DE37200E7C80E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				02BA3164269F31570097CF1D /* Top */,
+				02BA3163269F30130097CF1D /* Bottom */,
+				02B0C0FF269DD5FE00E7C80E /* HomeViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02BA3163269F30130097CF1D /* Bottom */ = {
+			isa = PBXGroup;
+			children = (
 				02B0C110269DE3B700E7C80E /* BottomView.swift */,
 				02B0C112269DE6F500E7C80E /* BottomButtonView.swift */,
 			);
-			path = Views;
+			path = Bottom;
+			sourceTree = "<group>";
+		};
+		02BA3164269F31570097CF1D /* Top */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Top;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
